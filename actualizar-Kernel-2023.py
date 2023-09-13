@@ -57,7 +57,6 @@ print("\nAntes de actualizar el kernel, es importante asegurarse de que todo el 
 update_confirmation = input("¿Deseas actualizar el sistema? (Sí/No): ").lower()
 if update_confirmation == 'si' or update_confirmation == 'sí':
     os.system('sudo apt update')
-    os.system('sudo apt upgrade')
     print("\nSe ha actualizado el sistema.\n")
 print("-----                                                         \n")
 # Instalación del nuevo kernel
