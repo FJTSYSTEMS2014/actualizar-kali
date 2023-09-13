@@ -51,7 +51,6 @@ if os.path.exists(sources_list_path):
 actualizar_sistema = input("¿Deseas comenzar con la actualización del sistema? (y/n): ")
 if actualizar_sistema.lower() == "y":
     os.system("sudo apt update")
-    os.system("sudo apt upgrade -y")
     print("Actualización del sistema realizada.")
     print("---                                                          \n")
 
